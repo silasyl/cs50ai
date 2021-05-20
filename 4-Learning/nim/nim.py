@@ -171,7 +171,7 @@ class NimAI():
                 return actions[0][1]
 
 
-def train(n):
+def train(n=10000):
     """
     Train an AI by playing `n` games against itself.
     """
